@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter to Instagram akkaunt</title>
+    <style>
+        body{
+            font-family: "Arial", sans-serif;
+            background-color: silver;
+        }
+        .content{
+            width: 250px;
+            margin: 10px;
+            padding: 50px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            box-shadow: 0 0 50px red, rgba(red, 0, 1, 1);
+        }
+        form{
+            display: flexbox;
+            flex-direction: column-reverse;
+        }
+        .mine-form{
+            margin-bottom: 30px;
+        }
+        input{
+            padding: 10px;
+            font-size: 12px;
+            border: 5px solid slategrey;
+            border-radius: 25px;
+        }
+        button{
+            padding: 15px;
+            font-size: 50;
+            border: 10px slateblue;
+            border-radius: 15px;
+            cursor: pointer;
+            color: rgba(red, green, blue, alpha);
+            background-color: #5F8670;
+        }
+        button:hover
+        {
+            background-color: lightslategrey;
+        }
+        label{
+            margin-bottom: 9px;
+            display: list-item;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="content">
+            <form action="#" method="dialog">
+                <h1 style="color: purple;"><em>Instagram</em></h1>
+                <div class="mine-form">
+                    <label for="username"><b>Enter your username</b></label>
+                    <input type="char" name="username" id="username" required>
+                </div>
+                <div class="mine-form">
+                    <label for="number"><b>Enter your number</b></label>
+                    <input type="integer" name="number" id="number" required>
+                </div>
+                <div class="mine-form">
+                    <label for="email"><b>Enter your elektron address</b></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="mine-form">
+                    <label for="password"><b>Enter your password</b></label>
+                    <input type="password" name="password" id="password" required>
+                </div> 
+                <div class="mine-form">
+                   <button class="enter">Enter</button>
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
